@@ -20,7 +20,7 @@ module.exports = async (req, res) => {
     text,
     reference_id,
     format = 'mp3',
-    model = 's2-pro',
+    model = 's2.1-pro-free',
   } = req.body || {};
 
   // Basic validation
